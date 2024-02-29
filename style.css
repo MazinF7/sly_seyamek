@@ -62,25 +62,36 @@ body{
         animation: anmation2 1    3s reverse;
         text-align: center;
     }
+    .qustion{
+        font-size: 30px;
+    }
     .answer1{
         margin-top: 20px;
         background-color: rgba(22, 116, 22, 255);
         color: white;
+        height: 50px;
+        font-size: 30px;
     }
     .answer2{
         margin-top: 20px;
         background-color: rgba(22, 116, 22, 255);
         color: white;
+        height: 50px;
+        font-size: 30px;
     }
     .answer3{
         margin-top: 20px;
         background-color: rgba(22, 116, 22, 255);
         color: white;
+        height: 50px;
+        font-size: 30px;
     }
     .answer4{
         margin-top: 20px;
         background-color: rgba(22, 116, 22, 255);
         color: white;
+        height: 50px;
+        font-size: 30px;
     }
     .counter{
         margin-top: 20px;

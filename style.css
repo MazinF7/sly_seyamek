@@ -1,0 +1,116 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+body{
+    background-color: rgba(223, 215, 215, 1);
+    font-family: 'Droid Arabic Kufi', serif;
+    margin: 0 0;
+}
+@media only screen and (max-width:1000px) and (min-width:1px) {
+    .anm1{
+        width: 50px;
+        height: 600px;
+        background-color: rgba(22, 116, 22, 255);
+        float: left;
+        border-bottom-right-radius:50% ;
+        opacity: .7;
+        animation: anmation1 1    3s reverse;
+    }
+    .anm2{
+        width: 50px;
+        height: 600px;
+        background-color: rgba(22, 116, 22, 255);
+        float: right;
+        border-bottom-left-radius:50% ;
+        opacity: .7;
+        animation: anmation1 1    3s reverse;
+    }
+    .checkuser{
+        position: absolute;
+        width: 250px;
+        height: 300px;
+        transform: translate(70px,100px);
+        border-radius: 20px;
+        animation: anmation2 1    3s reverse;
+        
+    }
+    .checkuser input{
+        width: 150px;
+        height: 50px;
+        transform: translate(100px,50px);
+        border: rgba(22, 116, 22, 255) solid 5px;
+        text-align: center;
+    }
+    .checkuser button{
+        transform: translate(0px,130px);
+        height: 60px;
+        border: rgba(22, 116, 22, 255) solid 5px;
+        font-size: 30px;
+        background-color: rgba(22, 116, 22, 255);
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        border-radius:0px ;
+    }
+    .checkuser p{
+        transform: translate(0,50px);
+    }
+    .champion_body{
+        position: absolute;
+        width: 250px;
+        height: 500px;
+        transform: translate(70px,70px);
+        border-radius: 20px;
+        animation: anmation2 1    3s reverse;
+        text-align: center;
+    }
+    .answer1{
+        margin-top: 20px;
+        background-color: rgba(22, 116, 22, 255);
+        color: white;
+    }
+    .answer2{
+        margin-top: 20px;
+        background-color: rgba(22, 116, 22, 255);
+        color: white;
+    }
+    .answer3{
+        margin-top: 20px;
+        background-color: rgba(22, 116, 22, 255);
+        color: white;
+    }
+    .answer4{
+        margin-top: 20px;
+        background-color: rgba(22, 116, 22, 255);
+        color: white;
+    }
+    .counter{
+        margin-top: 20px;
+        font-size: 30px;
+        border: black solid 5px;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        transform: translate(100px,0);
+    }
+    @keyframes anmation1 {
+        from{
+            width: 50px;
+            transition: 1s;
+        }
+        to{
+            width: 160px;
+            transition: 1s;
+        }
+    }
+    @keyframes anmation2 {
+        from{
+            transition: 1s;
+            opacity: .5;
+        }
+        to{
+            opacity: .0;
+            transition: 1s;
+        }
+    }
+}
+@media only screen and (max-width:4000px) and (min-width:1001px) {
+}

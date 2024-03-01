@@ -37,7 +37,7 @@
     <div class="anm2"></div>
     <script src="mai.js"></script>
     <?php
-    require('database/db.php');
+    require('db.php');
     if (isset($_POST['wrong'])){
         $username= stripslashes($_REQUEST['username']);
         $username= mysqli_real_escape_string($con, $username);
@@ -69,7 +69,7 @@
     }
     ?>
     <?php
-    require('database/db.php');
+    require('db.php');
     if (isset($_POST['right'])){
         $username= stripslashes($_REQUEST['username']);
         $username= mysqli_real_escape_string($con, $username);
@@ -101,7 +101,7 @@
     }
     ?>
     <?php
-        require('database/db.php');
+        require('db.php');
         if (isset($_POST['submit'])){
             $username= stripslashes($_REQUEST['username']);
         $username= mysqli_real_escape_string($con, $username);
